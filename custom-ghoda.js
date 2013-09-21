@@ -1,4 +1,5 @@
 $(document).ready(function() {
+
 	var $oL = $('#old_list');
 	$oL.after('<ul id="even_list" class="box-list"></ul>');
 	$oL.next().append($oL.find('li:odd'));
